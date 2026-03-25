@@ -1,0 +1,27 @@
+{
+  "name": "mojiiq-remotion",
+  "version": "1.0.0",
+  "description": "MojiIQ TikTok Japanese Lesson Video Renderer",
+  "private": true,
+  "scripts": {
+    "start": "npx remotion studio",
+    "render": "npx remotion render MojiiqLesson out/mojiiq-lesson.mp4 --codec=h264",
+    "fetch-videos": "node scripts/fetch-videos.js",
+    "generate-audio": "node scripts/generate-audio.js",
+    "build": "node scripts/fetch-videos.js && node scripts/generate-audio.js && npm run render"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "remotion": {
+    "entryPoint": "src/index.ts"
+  }
+}

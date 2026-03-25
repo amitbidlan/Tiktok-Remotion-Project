@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "moving-company-complaint",
+    "level": "N2-N1",
+    "tone": "polite-persistent",
+    "scenario": "You moved into a new apartment. Your TV screen is cracked from the move. The moving company says damage claims must be filed within 3 days, but you only just discovered it.",
+    "pexels_query_slide2": "moving boxes apartment unpacking"
+  },
+  "slides": {
+    "hook": {
+      "audio_script_en": "Can you say this in Japanese? A cracked TV, a moving company, and a 3-day deadline. What would you say? Let's find out."
+    },
+    "scene": {
+      "title": "You just moved in.",
+      "icon": "📦",
+      "body_html": "Unpacking your apartment, you find your <strong>TV screen is cracked</strong> — damaged during the move.<br><br>You call the moving company. Staff says:<br><br><em>\"Claims must be filed within 3 days of delivery.\"</em><br><br>It's been more than 3 days. <strong>What do you say?</strong>",
+      "audio_script_en": "Here's the situation. You just moved into a new apartment. While unpacking, you discover your TV screen is cracked — clearly damaged during the move. You call the moving company, but the staff says damage claims had to be filed within 3 days of delivery. What do you say?"
+    },
+    "challenge": {
+      "audio_script_en": "Pause here. How would YOU respond in Japanese? Politely but firmly. Take a moment and give it a try before the answer."
+    },
+    "dialogue": {
+      "exchanges": [
+        {
+          "speaker": "you",
+          "jp": "もしもし、先週引越しをお願いしたのですが、テレビの画面が割れていたんです。補償していただけますか？",
+          "highlight_words": ["補償"],
+          "romaji": "Moshi moshi, senshū hikkoshi o onegai shita no desu ga, terebi no gamen ga warete ita n desu. Hoshō shite itadakemasu ka?",
+          "english": "\"Hello, I used your moving service last week — my TV screen is cracked. Could you compensate me?\"",
+          "duration_ms": 3200
+        },
+        {
+          "speaker": "staff",
+          "jp": "大変申し訳ございませんが、破損のお申し出は配達後3日以内にいただく必要がございまして…",
+          "highlight_words": ["破損", "申し出"],
+          "romaji": "Taihen mōshiwake gozaimasen ga, hason no mōshide wa haitatsu-go mikka-inai ni itadaku hitsuyō ga gozaimashite…",
+          "english": "\"We sincerely apologize, but damage claims must be submitted within 3 days of delivery…\"",
+          "duration_ms": 3200
+        },
+        {
+          "speaker": "you",
+          "jp": "その規定は存じておりますが、気づいたのは昨日で、御社の作業中に生じた破損の可能性が高く、誠意ある対応をお願いしたいと思っております。",
+          "highlight_words": ["規定", "誠意ある対応"],
+          "romaji": "Sono kitei wa zonjite orimasu ga, kidzuita no wa kinō de, onsha no sagyo-chū ni shōjita hason no kanōsei ga takaku, seii aru taiō o onegai shitai to omotte orimasu.",
+          "english": "\"I am aware of that policy — however I only noticed yesterday. There is a strong likelihood the damage occurred during your work, and I request a sincere response.\"",
+          "duration_ms": 4500
+        }
+      ],
+      "recap_words": [
+        {
+          "jp": "補償",
+          "romaji": "hoshō",
+          "instruction": "Use when asking for compensation from a company"
+        },
+        {
+          "jp": "破損",
+          "romaji": "hason",
+          "instruction": "Use to describe physical damage to an object"
+        },
+        {
+          "jp": "誠意ある対応",
+          "romaji": "seii aru taiō",
+          "instruction": "Use to demand a good-faith response politely"
+        },
+        {
+          "jp": "存じております",
+          "romaji": "zonjite orimasu",
+          "instruction": "Use to say 'I am aware' in humble, formal Japanese"
+        }
+      ],
+      "audio_scripts_ja": [
+        "もしもし、先週引越しをお願いしたのですが、テレビの画面が割れていたんです。補償していただけますか？",
+        "大変申し訳ございませんが、破損のお申し出は配達後3日以内にいただく必要がございまして…",
+        "その規定は存じておりますが、気づいたのは昨日で、御社の作業中に生じた破損の可能性が高く、誠意ある対応をお願いしたいと思っております。"
+      ]
+    },
+    "vocab": {
+      "words": [
+        {
+          "jp": "破損",
+          "romaji": "hason",
+          "meaning": "Damage or breakage to an object. Used formally in complaints and official contexts."
+        },
+        {
+          "jp": "補償",
+          "romaji": "hoshō",
+          "meaning": "Compensation. Financial restitution for a loss caused by another party."
+        },
+        {
+          "jp": "申し出",
+          "romaji": "mōshide",
+          "meaning": "A formal claim or report. Used when officially notifying someone of a problem."
+        },
+        {
+          "jp": "規定",
+          "romaji": "kitei",
+          "meaning": "A rule or policy. Common in business and legal contexts."
+        },
+        {
+          "jp": "存じております",
+          "romaji": "zonjite orimasu",
+          "meaning": "Humble 'I am aware.' Shows respect while asserting knowledge."
+        },
+        {
+          "jp": "誠意ある対応",
+          "romaji": "seii aru taiō",
+          "meaning": "Sincere, good-faith response. Implies a moral obligation to act fairly."
+        },
+        {
+          "jp": "〜可能性が高い",
+          "romaji": "kanōsei ga takai",
+          "meaning": "High likelihood that~. Evidence-based, non-aggressive assertion."
+        }
+      ],
+      "audio_script_en": "Let's go over the key vocabulary. Hason — damage or breakage. Hoshō — compensation. Mōshide — a formal claim or report. Kitei — policy or regulation. Zonjite orimasu — I am aware of, in humble form. Seii aru taiō — a sincere, good-faith response. And the pattern: kanōsei ga takai — meaning there is a high likelihood."
+    },
+    "outro": {
+      "audio_script_en": "Great work! Save this for your next real-life situation in Japan. Follow for daily Japanese lessons — real conversations, real situations, N2 to N1 level."
+    }
+  }
+}
