@@ -1,11 +1,8 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Sequence, useCurrentFrame, useVideoConfig } from 'remotion';
 import { HookSlide } from './slides/HookSlide';
-import { SceneSlide } from './slides/SceneSlide';
-import { ChallengeSlide } from './slides/ChallengeSlide';
+import { SceneSlide, ChallengeSlide, VocabSlide, OutroSlide } from './slides/OtherSlides';
 import { DialogueSlide } from './slides/DialogueSlide';
-import { VocabSlide } from './slides/VocabSlide';
-import { OutroSlide } from './slides/OutroSlide';
 
 interface Props {
   lesson: any;
