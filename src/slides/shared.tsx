@@ -1,3 +1,5 @@
+import React from 'react';
+
 // Shared brand colors and styles for MojiIQ slides
 
 export const COLORS = {
