@@ -1,4 +1,5 @@
 name: Render MojiIQ Lesson Video
+
 on:
   workflow_dispatch:
     inputs:
@@ -6,30 +7,37 @@ on:
         description: 'Lesson title (used for artifact name)'
         required: false
         default: 'lesson'
+
 jobs:
   render:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
+
       - name: Install dependencies
         run: npm install
+
       - name: Install Remotion Chrome dependencies
-        run: |
-          npx remotion browser ensure
+        run: npx remotion browser ensure
+
       - name: Fetch Pexels background videos
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: node scripts/fetch-videos.js
+
       - name: Generate ElevenLabs audio
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: node scripts/generate-audio.js
+
       - name: Render video with Remotion
         run: |
           npx remotion render MojiiqLesson out/mojiiq-lesson.mp4 \
@@ -37,6 +45,7 @@ jobs:
             --pixel-format=yuv420p \
             --crf=18 \
             --log=verbose
+
       - name: Upload MP4 artifact
         uses: actions/upload-artifact@v4
         with:
